@@ -29,3 +29,10 @@ Then use this command to run the streamlit application
 streamlit run app.py
 
 
+
+##  Type the name of the movie you want to ask for a recommendation and click on the recommend button to get the recommendation. You will receive the top 5 similar movies. 
+
+![Screenshot (140)](https://github.com/SamSon1402/recommender_system/assets/115778428/7bdfb268-fb6d-4518-b611-f5b862af2d97)
+
+
+
