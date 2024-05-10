@@ -1,38 +1,41 @@
 # Recommend System Project
 
-Brief description or overview of the project.
+This project is a Python-based movie recommendation system. It processes movie data, including genres, keywords, cast, and crew information, computes similarity between movies, and provides recommendations based on a given movie title.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 
 ## Introduction
 
-This Python Project processes movie data, including genres, keywords, cast, and crew information. It then computes similarity between movies based on their attributes and provides a function to recommend similar movies given a movie title. Finally, it saves the similarity matrix and preprocessed data for later use.
+The project utilizes movie metadata from the TMDb dataset to recommend similar movies based on user input. It computes similarity between movies using their attributes and provides recommendations accordingly.
 
 ## Installation
 
-Load the dataset using this link https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
- , download the dataset credits and movies
-run this command from the terminal 
+To install and run the project, follow these steps:
 
-```bash
-pip install -r requirements.txt
+1. Load the dataset using this [link](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv).
+2. Download the dataset files: `credits.csv` and `movies.csv`.
+3. Run the following command from the terminal to install the required dependencies:
 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Then use this command to run the streamlit application 
+4. After installing the dependencies, use the following command to run the Streamlit application:
 
+    ```bash
+    streamlit run app.py
+    ```
 
+## Usage
 
+Once the Streamlit application is running, you can interact with it by typing the name of a movie you'd like a recommendation for. Click on the "Recommend" button to receive the top 5 similar movies.
 
-streamlit run app.py
+![Screenshot](https://github.com/SamSon1402/recommender_system/assets/115778428/7bdfb268-fb6d-4518-b611-f5b862af2d97)
 
+## License
 
-
-##  Type the name of the movie you want to ask for a recommendation and click on the recommend button to get the recommendation. You will receive the top 5 similar movies. 
-
-![Screenshot (140)](https://github.com/SamSon1402/recommender_system/assets/115778428/7bdfb268-fb6d-4518-b611-f5b862af2d97)
-
-
-
+I want to express my gratitude to [Travis Bell](https://www.linkedin.com/in/travisbell/?originalSubdomain=ca) for providing me with the API. Without his contribution, this project would not have been possible.
